@@ -1,9 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { GitHub, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { useState } from "react";
 
 const Contact = () => {
@@ -84,7 +83,7 @@ const Contact = () => {
               
               <Card className="card-hover">
                 <CardContent className="p-4 flex items-center">
-                  <GitHub className="h-5 w-5 text-portfolio-blue mr-3" />
+                  <Github className="h-5 w-5 text-portfolio-blue mr-3" />
                   <div>
                     <CardTitle className="text-sm font-medium">GitHub</CardTitle>
                     <CardDescription className="text-sm">
