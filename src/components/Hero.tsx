@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="flex justify-center animate-fade-in">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img
-                src="/placeholder.svg"
+                src="/lovable-uploads/fef5ee6d-6d52-405d-89f5-04f8a0cbdde6.png"
                 alt="Kulwant Olkha"
                 className="w-full h-full object-cover"
               />
