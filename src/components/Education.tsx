@@ -1,4 +1,3 @@
-
 import { GraduationCap } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -16,14 +15,14 @@ const Education = () => {
       degree: "Higher Secondary Education",
       duration: "Apr 2019 - Mar 2021",
       location: "Sikar, Rajasthan",
-      details: "Percentage: 86.80%",
+      details: "Percentage: 76.80%",
     },
     {
       institution: "Tagore Public School",
       degree: "Secondary Education",
       duration: "Apr 2017 - Mar 2019",
       location: "Gudha Gorji, Rajasthan",
-      details: "Percentage: 81.80%",
+      details: "Percentage: 91.80%",
     },
   ];
 

@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Award, Calendar } from "lucide-react";
 
@@ -26,7 +25,7 @@ const Certifications = () => {
 
   const achievements = [
     {
-      title: "Solved 200+ Problems on various coding platforms",
+      title: "Solved 300+ Problems on various coding platforms",
       date: "Jan 2025",
       description: "Solving DSA problems and regular participating at Leetcode and GeeksForGeeks."
     },

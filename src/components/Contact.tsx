@@ -57,7 +57,7 @@ const Contact = () => {
                   <Phone className="h-5 w-5 text-portfolio-blue mr-3" />
                   <div>
                     <CardTitle className="text-sm font-medium">Phone</CardTitle>
-                    <CardDescription className="text-sm">+91 7728186777</CardDescription>
+                    <CardDescription className="text-sm">+91 7727846777</CardDescription>
                   </div>
                 </CardContent>
               </Card>
