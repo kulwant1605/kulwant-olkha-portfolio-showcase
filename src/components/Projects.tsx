@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
@@ -9,28 +10,32 @@ const Projects = () => {
       description: "Built a Restaurant Recommendation System using K-Means clustering for personalized suggestions. Preprocessed data by managing missing values, normalizing, and converting ratings for accuracy. Applied data visualization to analyze user preferences, restaurant trends, and season patterns.",
       duration: "Sept 2024-Nov 2024",
       techStack: ["Python", "Pandas", "NumPy", "Scikit-learn", "Git"],
-      github: "https://github.com/Kulwantolkha/Flood-Management-"
+      github: "https://github.com/Kulwantolkha/Flood-Management-",
+      demo: "#"
     },
     {
       title: "Titanic Survival Prediction",
       description: "Built a machine learning model to analyze survival probabilities in the Titanic disaster. Performed exploratory data analysis identifying correlations among data sets, age, and survivor quality. Configured feature engineering and applied supervised learning models to make accurate predictions. Debugged and optimized model performance through iterative testing.",
       duration: "Jun 2024-Jul 2024",
       techStack: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn"],
-      github: "https://github.com/Kulwantolkha/Titanic-Survival-Project"
+      github: "https://github.com/Kulwantolkha/Titanic-Survival-Project",
+      demo: "#"
     },
     {
       title: "Plastic Waste Management Website",
       description: "A website dedicated to raising awareness about plastic waste management. Built using HTML, CSS, and JavaScript for a responsive and user-friendly design. Offers informative content on the environmental impact of plastic pollution. Provides practical solutions and tips for plastic waste reduction and recycling. Promotes sustainable alternatives and encourages user engagement in environmental issues.",
       duration: "Jan 2024-Feb 2024",
       techStack: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Kulwantolkha/Flood-Management-"
+      github: "https://github.com/Kulwantolkha/Flood-Management-",
+      demo: "#"
     },
     {
       title: "Chatbot using NLP",
       description: "Developed an intelligent chatbot using Natural Language Processing to provide automated responses to user queries. Implemented sentiment analysis to understand user emotions and adjust responses accordingly. Integrated with various APIs to fetch real-time data for providing accurate information.",
       duration: "Mar 2024-Apr 2024",
       techStack: ["Python", "NLTK", "TensorFlow", "API Integration"],
-      github: "https://github.com/Kulwantolkha/Intelligent-Chatbot-Using-ML-and-Seq2Seq-Models"
+      github: "https://github.com/Kulwantolkha/Intelligent-Chatbot-Using-ML-and-Seq2Seq-Models",
+      demo: "#"
     }
   ];
 
@@ -60,14 +65,18 @@ const Projects = () => {
                 </div>
               </CardContent>
               <CardFooter className="pt-2">
-                <Button variant="outline" size="sm" className="mr-2">
-                  <Github className="h-4 w-4 mr-2" />
-                  <span>Code</span>
-                </Button>
-                <Button size="sm" className="bg-portfolio-blue hover:bg-portfolio-lightblue">
-                  <ExternalLink className="h-4 w-4 mr-2" />
-                  <span>Demo</span>
-                </Button>
+                <a href={project.github} target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" size="sm" className="mr-2">
+                    <Github className="h-4 w-4 mr-2" />
+                    <span>Code</span>
+                  </Button>
+                </a>
+                <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                  <Button size="sm" className="bg-portfolio-blue hover:bg-portfolio-lightblue">
+                    <ExternalLink className="h-4 w-4 mr-2" />
+                    <span>Demo</span>
+                  </Button>
+                </a>
               </CardFooter>
             </Card>
           ))}
