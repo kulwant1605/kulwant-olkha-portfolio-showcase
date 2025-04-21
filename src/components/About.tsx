@@ -1,4 +1,3 @@
-
 import { Briefcase, GraduationCap, Award } from "lucide-react";
 
 const About = () => {
@@ -45,7 +44,7 @@ const About = () => {
               <h3 className="text-xl font-semibold">Achievements</h3>
             </div>
             <p className="text-gray-600">
-              Solved 200+ problems on coding platforms, actively participated in contests, and earned certificates in Machine Learning and NLP
+              Solved 300+ problems on coding platforms, actively participated in contests, and earned certificates in Machine Learning and NLP
             </p>
           </div>
         </div>
