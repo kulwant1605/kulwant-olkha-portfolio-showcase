@@ -5,7 +5,7 @@ const Certifications = () => {
   const certifications = [
     {
       title: "Complete Machine Learning Course with Python",
-      platform: "Udemy (Geeks for Geeks)",
+      platform: "Geeks for Geeks",
       date: "Aug 2024",
       description: "Built a strong foundation in Python using libraries like NumPy, Pandas, and Matplotlib. Covered key topics in data analysis and machine learning (including neural networks). Gained practical experience through web scraping, Tableau dashboards, and real-world projects."
     },
